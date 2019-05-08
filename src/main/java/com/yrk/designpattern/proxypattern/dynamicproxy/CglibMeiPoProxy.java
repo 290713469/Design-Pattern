@@ -18,12 +18,12 @@ public class CglibMeiPoProxy implements MethodInterceptor{
 
 
 	private void before() {
-		System.out.println("ÎÒÊÇÃ½ÆÅ£¬ÄÃµ½ĞèÇó");
-		System.out.println("¿ªÊ¼ÎïÉ«");
+		System.out.println("æˆ‘æ˜¯åª’å©†ï¼Œä»¥æ‹¿åˆ°éœ€æ±‚");
+		System.out.println("å¼€å§‹ç‰©è‰²äººé€‰");
 	}
 
 	private void after() {
-		System.out.println("ÕÒµ½ºÏÊÊ¶ÔÏó");
+		System.out.println("ç‰©è‰²æˆåŠŸ");
 	}
 
 	@Override

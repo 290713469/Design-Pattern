@@ -10,7 +10,7 @@ package com.yrk.designpattern.proxypattern.common;
 public class OrderDao {
 	
 	public int insert(Order order) {
-		System.out.println("OrderDao创建Order成功");
+		System.out.println("OrderDao鍒涘缓Order鎴愬姛");
 		return 1;
 	}
 

@@ -18,8 +18,8 @@ public class Father {
 	}
 	
 	public void findLover() {
-		System.out.println("父母物色对象");
+		System.out.println("鐖舵瘝鐗╄壊瀵硅薄");
 		this.son.findLover();
-		System.out.println("双方同意");
+		System.out.println("鍙屾柟鍚屾剰");
 	}
 }

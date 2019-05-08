@@ -9,11 +9,8 @@ package com.yrk.designpattern.proxypattern.common;
  */
 public class Customer implements Person {
 
-	/* (non-Javadoc)
-	 * @see com.yrk.designpattern.proxypattern.common.Person#findLover()
-	 */
 	public void findLover() {
-		System.out.println("Customer Ҫ�� xxxxx");
+		System.out.println("Customer 相亲对象要求：XXXXXXX");
 	}
 
 }

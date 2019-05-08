@@ -39,7 +39,7 @@ public class OrderServiceDynamicProxy implements InvocationHandler {
 			Long createTime = (Long) object.getClass().getMethod("getCreateTime").invoke(object, new Object[] {});
 			SimpleDateFormat sdf = new SimpleDateFormat("yyyy");
 			Integer routeNumber = Integer.valueOf(sdf.format(new Date(createTime)));
-			System.out.println("¶¯Ì¬´úÀí·ÖÅäµ½Êı¾İÔ´£º DB_" + routeNumber);
+			System.out.println("åŠ¨æ€ä»£ç†ç±»è‡ªåŠ¨åˆ†é…åˆ° DB_" + routeNumber);
 			DynamicDataSourceEntry.set(routeNumber);
 		} catch (Exception e) {
 			e.printStackTrace();
@@ -50,5 +50,4 @@ public class OrderServiceDynamicProxy implements InvocationHandler {
 		System.out.println("proxy after method");
 		DynamicDataSourceEntry.reset();
 	}
-
 }

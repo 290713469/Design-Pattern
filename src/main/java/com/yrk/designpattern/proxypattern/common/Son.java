@@ -10,7 +10,7 @@ package com.yrk.designpattern.proxypattern.common;
 public class Son implements Person {
 
 	public void findLover() {
-		System.out.println("¶ù×ÓÒªÇó£ºxxxxxx");
+		System.out.println("å„¿å­è¦æ±‚ï¼šxxxxxx");
 	}
 
 }

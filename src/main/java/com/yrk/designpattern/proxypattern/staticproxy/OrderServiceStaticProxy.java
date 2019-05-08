@@ -26,7 +26,7 @@ public class OrderServiceStaticProxy implements OrderService {
 		Long createTime = order.getCreateTime();
 		SimpleDateFormat sdf = new SimpleDateFormat("yyyy");
 		Integer routeNumber = Integer.valueOf(sdf.format(new Date(createTime)));
-		System.out.println("¾²Ì¬´úÀí·ÖÅäµ½Êı¾İÔ´£º DB_" + routeNumber);
+		System.out.println("é™æ€ä»£ç†è‡ªåŠ¨åˆ†é…åˆ° DB_" + routeNumber + " æ•°æ®æºå¤„ç†æ•°æ®");
 		DynamicDataSourceEntry.set(routeNumber);
 		this.orderService.createOrder(order);
 		after();

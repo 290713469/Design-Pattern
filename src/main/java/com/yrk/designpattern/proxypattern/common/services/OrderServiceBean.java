@@ -22,7 +22,7 @@ public class OrderServiceBean implements OrderService {
 	 * @see com.yrk.designpattern.proxypattern.common.services.OrderService#createOrder(com.yrk.designpattern.proxypattern.common.Order)
 	 */
 	public int createOrder(Order order) {
-		System.out.println("OrderService 调用OrderDao创建Order");
+		System.out.println("OrderService璋冪敤OrderDao鍒涘缓Order");
 		return orderDao.insert(order);
 	}
 

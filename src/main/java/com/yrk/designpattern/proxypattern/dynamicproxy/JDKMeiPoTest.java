@@ -17,10 +17,6 @@ import sun.misc.ProxyGenerator;
  */
 public class JDKMeiPoTest {
 
-	/**
-	 * @param args
-	 * @throws Exception 
-	 */
 	public static void main(String[] args) throws Exception {
 		Person person = (Person) new JDKMeiPo().getInstance(new Customer());
 		person.findLover();
@@ -30,5 +26,4 @@ public class JDKMeiPoTest {
 		os.write(bytes);
 		os.close();
 	}
-
 }
